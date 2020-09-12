@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-	font-family: 'Lemonada', cursive;
+	/* font-family: 'Lemonada', cursive; */
+	font-family: 'Concert One', cursive;
 	/* overflow: hidden; */
 }
 
@@ -128,6 +129,7 @@ body {
 	padding-top: 3%;
 	background-color: #f0a500;
 	height: 100vh;
+	padding: 4% 30%;
 }
 
 
@@ -168,4 +170,16 @@ font-family: 'Lobster Two', cursive;
 
 .ddd{
 	color: #162447;
+}
+
+@media ( max-width:730px){
+	.ins{
+		font-size: 4.9rem;
+	}
+}
+
+.c{
+	padding-top: 200px;
+	padding-bottom: 200px;
+
 }
